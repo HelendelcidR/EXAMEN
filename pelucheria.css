@@ -1,0 +1,39 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(241, 178, 105);
+}
+.fondo{
+    width: 100%;
+    height: 600px;
+    background-image: url(./imagenes/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.h1{
+    font-family: monospace;
+    color: chocolate;
+    font-size: 50px;
+    margin-left: 240px;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    margin-top: -820px;
+    margin-left: 15px;
+}
+.fondo a{
+    margin-top: -1800px;
+    text-decoration: none;
+    color: rgb(248, 239, 239);
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    border-radius: 900px;
+    margin-left: 880px;
+}
+.fondo a:hover{
+    background-color:crimson;
+    transition: 600ns;
+}
